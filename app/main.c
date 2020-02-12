@@ -5,6 +5,6 @@
 int main()
 {
     printf("Hello World!\n");
-    quadrat(1, 5, 1);
+    quadrat(1, 5, 2);
     return myfunc(2);
 }
