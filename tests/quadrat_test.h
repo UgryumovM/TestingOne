@@ -57,6 +57,6 @@ TEST(quadraTest, Unexpected){
     ASSERT_EQ(quadrat(0,1,1).a, 1);
     ASSERT_EQ(quadrat(0,1,1).b, -1);
 
-    ASSERT_EQ(quadrat(0,0,100).a, -1);
+    ASSERT_EQ(quadrat(0,0,10).a, -1);
 }
 #endif
