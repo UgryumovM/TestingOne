@@ -4,8 +4,13 @@
 
 qans quadrat(int a, int b, int c){
     qans ans;
-    if((a == b) && (b == c) && (c == 0)){
+    if((a == b) && (b == 0)){
         ans.a = -1;
+        return ans;
+    }
+    if(a == 0){
+        ans.a = 1;
+        ans.b = -(double)c/(double)b;
         return ans;
     }
     double d = b*b - 4*a*c;
