@@ -22,5 +22,6 @@ HEADERS +=     tst_test1.h \
 
 SOURCES +=     main.cpp \
     ../app/myfunc.c
+    ../app/quadrat.c
 
 INCLUDEPATH += ../app

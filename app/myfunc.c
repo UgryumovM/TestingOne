@@ -1,5 +1,5 @@
-
 #include "myfunc.h"
+#include "quadrat.c"
 
 int myfunc(int b) {
     return b+4;

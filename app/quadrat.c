@@ -1,20 +1,26 @@
 #include <stdio.h>
 #include <math.h>
+#include "myfunc.h"
 
-void quadrat(int a, int b, int c){
-    double x1, x2;
+qans quadrat(int a, int b, int c){
+    qans ans;
+    if((a == b) && (b == c) && (c == 0)){
+        ans.a = -1;
+        return ans;
+    }
     double d = b*b - 4*a*c;
     if(d < 0){
-        printf("Нет корней \n");
+        ans.a = 0;
+        return ans;
     }
     if(d == 0.){
-        x1 = -b/2*a;
-        printf("%f \n", x1);
+        ans.a = 1;
+        ans.b = -(double)b/(2.*(double)a);
+        return ans;
     }
-    if(d > 0){
-        d = sqrt(d);
-        x1 = (-b+d)/2*a;
-        x2 = (-b-d)/2*a;
-        printf("%f %f \n", x1, x2);
-    }
+    d = sqrt(d);
+    ans.a = 2;
+    ans.b = (double)(-b+d)/(2.*(double)a);
+    ans.c = (double)(-b-d)/(2.*(double)a);
+    return ans;
 }
