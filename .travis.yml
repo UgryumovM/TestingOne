@@ -5,10 +5,10 @@ before_install:
   - pip install --user cpp-coveralls
 
 addons:
- sonarcloud:
- organization: "UgryumovM-github"
- token:
-  secure: $SONAR_TOKEN
+  sonarcloud:
+    organization: "UgryumovM-github"
+    token:
+      secure: $SONAR_TOKEN
 
 script:
   - qmake
