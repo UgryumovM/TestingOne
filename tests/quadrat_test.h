@@ -30,7 +30,7 @@ TEST(quadraTest, Negative){
     qans t = quadrat(-4,6,4);
     ASSERT_EQ(t.a, 2);
     ASSERT_NEAR(t.b, -0.5, 0.01);
-    ASSERT_NEAR(t.c, 2, 0.1);
+    ASSERT_NEAR(t.c, 2, 0.01);
 }
 
 TEST(quadraTest, Unexpected){
