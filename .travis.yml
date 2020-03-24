@@ -19,8 +19,7 @@ after_success:
   - coveralls --root . -E ".*external.*" -E ".*tests.*"
   - build-wrapper-linux-x86-64 --out-dir bw-output make clean all
   - sonar-scanner \
-    -Dsonar.projectKey=qmake-gtest \
-    -Dsonar.cfamily.build-wrapper-output=bw-output \
+    -Dsonar.projectKey=TestingOne \
     -Dsonar.host.url=https://sonarcloud.io \
     -Dsonar.organization=UgryumovM-github \
     -Dsonar.login=$SONAR_TOKEN
