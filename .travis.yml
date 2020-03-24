@@ -6,7 +6,7 @@ before_install:
 
 addons:
   sonarcloud:
-    organization: "UgryumovM-github"
+    organization: "ugryumovm"
     token:
       secure: $SONAR_TOKEN
 
