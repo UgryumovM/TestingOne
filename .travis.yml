@@ -6,9 +6,9 @@ before_install:
 
 addons:
   sonarcloud:
-   organization: "ugryumovm"
-   token:
-    secure: $SONAR_TOKEN
+    organization: "ugryumovm"
+    token:
+      secure: $SONAR_TOKEN
 
 script:
   - qmake
