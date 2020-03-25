@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "ugryumovm"
     token: 
-        secure: $SONAR_TOKEN
+      secure: $SONAR_TOKEN
 
 script:
   - qmake
