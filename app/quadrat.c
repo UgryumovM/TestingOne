@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "myfunc.h"
+#include "quadrat.h"
 
 qans quadrat(int a, int b, int c){
     qans ans;

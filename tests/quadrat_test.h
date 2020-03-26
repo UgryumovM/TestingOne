@@ -1,12 +1,12 @@
-#ifndef QUADRAT_H
-#define QUADRAT_H
+#ifndef QUADRATT_H
+#define QUADRATT_H
 
 #include <gtest/gtest.h>
 #include <gmock/gmock-matchers.h>
 
 /* using namespace testing; */
 extern "C" {
-#include "myfunc.h"
+#include "quadrat.h"
 }
 
 TEST(quadraTest, noSol){

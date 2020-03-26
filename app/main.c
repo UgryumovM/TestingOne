@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "myfunc.h"
+#include "quadrat.h"
 
 int main()
 {

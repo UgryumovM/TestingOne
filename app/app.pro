@@ -8,7 +8,8 @@ SOURCES += main.c \
     quadrat.c
 
 HEADERS += \
-    myfunc.h
+    myfunc.h \
+    quadrat.h
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror
 
